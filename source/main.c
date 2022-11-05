@@ -8,7 +8,7 @@
 *
 *
 *******************************************************************************
-* Copyright 2020-2021, Cypress Semiconductor Corporation (an Infineon company) or
+* Copyright 2020-2022, Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.  All rights reserved.
 *
 * This software, including source code, documentation and related
@@ -80,7 +80,7 @@ int main(void)
     uint32_t cmd_send = CYBSP_LED_STATE_OFF;
 
     /* Buffer to hold command packet to be sent to the slave by the master */
-    uint8  txBuffer[NUMBER_OF_ELEMENTS];
+    uint8_t  txBuffer[NUMBER_OF_ELEMENTS];
 
     /* Initialize the device and board peripherals */
     result = cybsp_init();

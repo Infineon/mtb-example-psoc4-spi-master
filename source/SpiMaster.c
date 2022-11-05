@@ -5,7 +5,7 @@
 *
 *
 *******************************************************************************
-* Copyright 2020-2021, Cypress Semiconductor Corporation (an Infineon company) or
+* Copyright 2020-2022, Cypress Semiconductor Corporation (an Infineon company) or
 * an affiliate of Cypress Semiconductor Corporation.  All rights reserved.
 *
 * This software, including source code, documentation and related
@@ -129,7 +129,7 @@ uint32_t initMaster(void)
  * successfully. Otherwise it returns the error status
  *
  ******************************************************************************/
-cy_en_scb_spi_status_t sendPacket(uint8_t *txBuffer, uint32 transferSize)
+cy_en_scb_spi_status_t sendPacket(uint8_t *txBuffer, uint32_t transferSize)
 {
     cy_en_scb_spi_status_t masterStatus;
 
